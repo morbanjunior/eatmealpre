@@ -1,0 +1,61 @@
+.featuredallmeals {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+   
+
+  }
+  
+  .featuredItemmeals {
+    flex: 1;
+    margin: 20px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    width: 220px;
+    height: 150px;
+    background-color: white;
+  }
+  
+  .featuredTitlemeails{
+      font-size: 12px;
+      font-weight: 600;
+  }
+  
+  .featuredamountContainermeails{
+      margin: 10px 0px;
+      display: flex;
+      align-items: center;
+  }
+  
+  
+  .featuredMoneyRatemeails{
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+  }
+  
+  .featuredIconmeails{
+      font-size: 30px;
+      margin-left: 125px;
+      color: green;
+  }
+  .featuredAmount{
+      font-size: 16px;
+  }
+  a{
+    text-decoration: "none";
+    color: black;
+   
+  }
+  a:hover{
+      color:green;
+  }

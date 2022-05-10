@@ -1,0 +1,296 @@
+.containerCustom{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.customContainerLeft{
+    background-color: white;
+    width: auto;
+    display: flex;
+    padding: 20px;
+    /* flex-wrap: wrap; */
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.customContainerRight{
+    background-color: white;
+    width: auto;
+    height: 100px;
+    display: flex;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    
+    margin-bottom: 20px;
+}
+
+.leftCustom{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: auto;
+    
+}
+
+.proteinHeader{
+    display: flex;
+    flex-direction: row;
+}
+.asterico{
+    margin-left: 5px;
+    color:red;
+}
+
+.listDataCustom{
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.spanConstainerOz{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.spanOz{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 5px;
+    color: #1EAD5E;
+    background: white;
+    border-radius: 30px;
+    border: 1px solid #1EAD5E;
+    font-weight: 500;
+    transition: 0.2s ease all;
+    font-size: small;
+    cursor: pointer;
+    
+}
+
+.spanOz:hover{
+ background: #1EAD5E;
+ color:white;
+ border: 1px solid #1EAD5E;
+}
+.selectOz{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 5px;
+    color: white;
+    background: #1EAD5E;
+    border-radius: 30px;
+    border: 1px solid #1EAD5E;
+    font-weight: 500;
+    transition: 0.2s ease all;
+    font-size: small;
+    cursor: pointer;
+
+    -webkit-box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.19); 
+    box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.19);
+}
+
+.totalCustom{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+letter-spacing: 0.15px;
+color: #000000;
+}
+
+.constanierControlCustom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 120px;
+    margin-top: 10px;
+    align-items: center;
+}
+.controlCustom{
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: #1EAD5E;
+    border-radius: 20px;
+    
+}
+.buttonControl{
+display: flex;
+flex-direction: row;
+}
+
+.inputCustom{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+text-align: center;
+letter-spacing: 0.15px;
+color: #000000;
+width: 30px;
+padding-left: 10px;
+padding-right: 10px; 
+}
+    
+.inputCustom::-webkit-outer-spin-button,
+.inputCustom::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.inputCustom[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+.MasMenoSpancontainer{
+    display: flex;
+
+}
+.inputCustom:focus{
+    outline: none;
+}
+
+.addTocarCustom{
+    display: flex;
+    background-color: #1EAD5E;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    
+}
+
+.addTocarCustom:hover{
+    background-color: #168146;
+}
+
+.textSpan{
+    /* margin-left: 5px; */
+}
+.controlsBottom{
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.rightCustom{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tableSize{
+    display:none;
+}
+
+.totalCustomContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.totalCustomContainerTotal{
+    background-color: #1ead5e3a;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.totalCustomSpace{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #000000;
+    margin-right: 100px;
+}
+
+.categoriesTableItems{
+   
+    background-color: #1ead5e38;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+text-align: center;
+letter-spacing: 0.15px;
+margin-right: 5px;
+margin-top: 5px;
+
+}
+
+.colorProtein{
+    color: #1EAD5E;
+    margin-right: 5px;
+}
+
+@media(max-width:1284px) {
+    .listDataCustom{
+        width: auto;
+    }
+    .rightCustom{
+        margin-left:0px;
+    }
+
+    .tableSize{
+        display:none;
+    }
+
+}
+
+@media(max-width:632px) {
+    
+    .tableSize{
+       width: auto;
+       display:table;
+       font-size: small;
+       
+    }
+    .table1Hide{
+        display:none;
+    }
+    .spanOz{
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .spanConstainerOz{
+        margin-left: 10px;
+    }
+
+    .customContainerRight{
+        height: auto;
+    }
+
+    .totalCustomSpace{
+        margin-right: 10px;
+    }
+
+}

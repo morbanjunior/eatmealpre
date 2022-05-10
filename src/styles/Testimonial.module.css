@@ -1,0 +1,107 @@
+.containerTestimonial{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    height: 683px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-image: url("/backgroundTestimonio.png"), url("/quotes.png"); */
+    background-repeat: no-repeat, no-repeat;
+    background-position: left , right;
+    
+}
+
+.testimonialWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1366px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.rightTestimonial{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 2;
+}
+
+.leftTestimonial{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    height: 683px;
+}
+
+.leftTestimonialBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftTextTestimonialSpan1{
+    color:#FF4646;
+    font-size: 16px;
+}
+
+.leftTextTestimonialSpan2{
+    width: 431px;
+    color:#30475E;
+    font-size: 61px;
+    font-weight: 600;
+}
+
+.rightTestimonialItems{
+    background-color: #fff;
+    width: 444px;
+    height: 288px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.bodyTestimonialItems{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.imagenHeaderTestimonial{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+
+.headerTestimonialDatails{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.headerTestimonialname {
+    color: #30475E;
+    font-size: 19px;
+    font-weight: bold;
+}
+.headerTestimonialtipe{
+    color: #FF4646;
+    font-size: 16px;
+    font-weight:300;
+}
+
+.iconsStart{
+    color: #30475E;
+}
+
+.bottomTestimonialtipe{
+    color: #30475E;
+    font-size: 16px;
+    font-weight:300;
+}

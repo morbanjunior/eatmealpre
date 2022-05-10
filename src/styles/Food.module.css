@@ -1,0 +1,253 @@
+
+.categoriesHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    /* background-image: url("/backgroundAbout.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 46px;
+    font-weight: 500;
+}
+
+.containertFood{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    padding-top: 40px;
+    /* flex-wrap: wrap; */
+    padding-left: 5%;
+    padding-right: 7%;
+   color: #30475E;
+}
+
+.detailsHeader{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.detailsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.prices{
+    color: #FF4646;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.detailesP{
+    font-size: 16px;
+    font-weight: 500;
+    width: 460px;
+}
+
+.bottomContainer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.inputContainer span{
+    background-color: #FF4646;
+    color: #fff;
+    padding:  10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.inputContainer input{
+    width: 80px;
+    padding-left: 32px;
+    color: #FF4646;
+    border-color: #FF4646;
+    border-width: 1px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.inputContainer input [type=number] {
+-moz-appearance:textfield;
+}
+
+.inputContainer input::-webkit-outer-spin-button,
+.inputContainer input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.bottomAdd{
+    background-color: #FF4646;
+    color: #fff;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.bottomAdd:hover{
+    background-color: #e73b3b;
+}
+
+.secondContainer{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.secondContainerActive{
+    color: #e73b3b;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom-style:solid;
+    border-bottom-width: 2px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.secondContainerNoActive{
+    color: #30475E;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.containerSecondNI{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+
+}
+
+.secondSesionContainer{
+    margin-top: 100px;
+   justify-content: center;
+   align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.spanDetail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.spanDetail span{
+    color: #e73b3b;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #e73b3b;
+    border-width: 2px;
+    border-style: solid;
+    margin-right: 20px;
+    font-weight: 500;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.relatedText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.relatedTextSpan{
+    font-size: 30px;
+    font-weight: bold;
+    color: #30475E;
+}
+
+/* Related CSS */
+
+.wrapContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+
+.itemCategoryContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+   
+}
+
+.headerMealtext{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.imageMealtext{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 350px;
+    color:#30475E;
+    margin-bottom: 10px;
+}
+
+.spanp{
+    font-size: 14px;
+    font-weight: 300;
+    width: 286px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.bottonCategory{
+    background-color: #FF4646;
+    color: #fff;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.bottonCategory:hover{
+    background-color: #dc3939;
+}
+
+.textPrice{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FF4646;
+}

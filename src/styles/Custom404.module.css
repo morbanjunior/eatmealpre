@@ -1,0 +1,39 @@
+.container404{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container404Body{
+    background-color: #FF4646;
+    width: 431px;
+    height: 237px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container404Body h1{
+    color: #fff;
+}
+
+.notfoundButtom{
+    margin-top: 50px;
+    background-color: #FF4646;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.notfoundButtom:hover{
+    background-color: #c03434;
+}

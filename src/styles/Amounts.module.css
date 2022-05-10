@@ -1,0 +1,34 @@
+.containerAmount{
+    background-color: #FF4646;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.amountWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1366px;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.containerAmountBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.containerAmountBody span:first-child{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.containerAmountBody span:last-child{
+    font-size: 21px;
+    font-weight: 200;
+}

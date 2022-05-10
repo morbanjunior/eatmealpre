@@ -1,0 +1,208 @@
+.addressContainer{
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.liContainer{
+    text-decoration: "none";
+    color: rgba(0, 0, 0, 0.349);
+    padding-left: auto;
+    padding-right: auto;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 20px;
+   
+   
+  }
+  .liContainer:hover{
+      color:#30475E;
+  }
+  .tapContainer{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .addresItemContainer{
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, 0.212);
+      width: 450px;
+      height: 250px;
+      margin-top: 20px;
+      margin-right: 20px;
+      background-color: white;
+      border-radius: 5px;
+      -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+      
+  }
+
+  .addresItemSubContainer{
+      margin: 20px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .rightAddress{
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+  }
+
+  .leftAddress{
+
+    display: flex;
+  }
+
+  .editcontainer{
+      background-color: orange;
+      margin-right: 10px;
+      padding: 10px;
+      height: 40px;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+
+  }
+  .deletecontainer{
+    background-color: red;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .editcontainer:hover{
+    background-color: rgb(219, 144, 3);
+  }
+
+  .deletecontainer:hover{
+    background-color: rgb(218, 4, 4);
+  }
+
+  .containerAddButtonComponet{
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+   
+  }
+  .addButton{
+      background-color: #1EAD5E;
+      padding: 10px;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  .addButton:hover{
+    background-color: #189550;
+  }
+
+  .nodataContainer{
+      display: flex;
+      background-color: rgba(255, 68, 0, 0.534);
+      padding: 10px;
+      color: white;
+      width: 100%;
+  }
+
+  .constainerModalAddress{
+      width: 900px;
+      height: 600px;
+  }
+  .headerContainerAddress{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+
+  }
+
+  .bodyContainerAddress{
+     
+      display: flex;
+      flex-direction: column;
+  }
+
+  .namesContainerAddress{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      width: auto;
+     flex-wrap: wrap;
+  }
+  .addContainerAddress{
+    margin-top: 10px;
+  }
+  .addressContainerAddress{
+    margin-top: 20px;
+  }
+  .inputConstainer{
+      padding: 10px;
+      width: 49%;
+  }
+  .inputAddressConstainer{
+    padding: 10px;
+    width: 100%;
+}
+.pcontainer{
+    font-size: small;
+    width: auto;
+    display: flex;
+}
+.pcontainerAddDeliveri{
+    font-size: small;
+    width: 400px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.addDeliveryContainerAddress{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+   flex-wrap: wrap;
+   
+}
+
+.saveAddressButton{
+    background-color: #1EAD5E;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+}
+.saveAddressButton:hover{
+    background-color: #199350;
+}
+
+.inputAddressConstainer, .inputConstainer:focus{
+    outline: none;
+}
+.errorEmptyFields{
+  color: red;
+}
+
+  @media(max-width:393px) {
+    .liContainer{
+        font-size: small;
+    }
+    .right{
+        font-size: 10px;
+    }
+
+    .left{
+
+        display: block;
+        margin: 5px;
+        font-size: 10px;
+      }
+      .editcontainer{
+          margin-bottom: 10px;
+      }
+  }

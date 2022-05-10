@@ -1,0 +1,29 @@
+.bottomBarContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 130px;
+    background-color: white;
+}
+
+.leftBotton{
+    display: flex;
+}
+
+.itemsContainer{
+    margin-left: 20px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.562);
+}
+
+.itemsContainer:hover{
+    color: black;
+}
+
+.right{
+    color: rgba(0, 0, 0, 0.562);
+}
+

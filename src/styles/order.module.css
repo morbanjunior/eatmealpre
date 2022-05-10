@@ -1,0 +1,172 @@
+.order-container{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.itemContainer{
+    margin: 0 20px;
+    width: 100%;
+}
+.OrderItem{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.container-details{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top:10px;
+    justify-content: space-between;
+}
+
+
+.container-Subdetails{
+    margin-bottom: 15px;
+    margin-left: 20px;
+    
+}
+
+.container-SubdetailsEnd{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    align-items: flex-end;
+   
+}
+.container-id{
+    display:flex;
+}
+
+.container-p{
+    margin-right: 5px;
+}
+
+.food-id{
+    background-color: green;
+    color: white;
+    border-radius:5px;
+    padding: 0 5px;
+}
+
+.admin-id{
+    background-color: rgb(0, 153, 255);
+    color: white;
+    border-radius:5px;
+    padding: 0 5px;
+}
+
+.deliver-id{
+    display: flex;
+    background-color: rgb(0, 153, 255);
+    width: 70px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 5px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.renew-id{
+    display: flex;
+    background-color: rgb(0, 153, 255);
+    width: 130px;
+    color: white;
+    border-radius: 1px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.paidBy-id{
+    display: flex;
+    background-color: rgb(7, 17, 24);
+    color: white;
+    border-radius:5px;
+    padding: 0 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.renew-id:hover{
+   background-color: rgb(0, 140, 255);
+}
+
+.img-Container{
+    width: 150px;
+    height: auto;
+    border-radius:5px;
+}
+
+.inputContainer{
+    display: flex;
+    padding: 0 10px;
+    margin-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.inputProp{
+    width: 310px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.inputProp:focus{
+    outline: none;
+}
+
+.inputFilter{
+    width: 150px;
+
+    
+}
+.componentFilter{
+    width: 150px;
+}
+@media(max-width:1149px) {
+    .inputFilter{
+        margin-right: 10px;
+       
+    }
+
+}
+
+@media(max-width:471px) {
+    .img-Container{
+        width: 100%;
+        height: auto;
+        border-radius:5px;
+        margin-bottom: 10px;
+        
+    }
+
+    .inputContainer{
+      margin-top: 20px;
+    }
+    .container-details{
+       display: block;
+       flex-wrap: wrap;
+    }
+
+    .inputFilter{
+        margin-right: 10px; 
+        cursor: pointer;
+    }
+
+    .inputProp{
+        width: 250px;
+        padding: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+}

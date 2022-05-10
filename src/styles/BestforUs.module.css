@@ -1,0 +1,132 @@
+.containerBestforus{
+    display: flex;
+   justify-content: center;
+    margin-top: 20px;
+    /* background-image: url("/maskGroup.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.bestwrapper{
+    width: 100%;
+    max-width: 1366px;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 50px;
+    
+}
+
+.bestwrapper h1{
+ color: #30475E;
+ margin-bottom: 40px;
+ font-weight: 600;
+ font-size: 40px;
+ line-height:58px
+}
+
+.containerHeaderChoose{
+
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.topchoose{
+    background-color: #FF4646;
+    color: #fff;
+    height: 50px;
+}
+
+.bootomchoose{
+    background-color: #fff;
+    color: #FF4646;
+    
+}
+
+.itemschooseContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.itemschooseContainer span{
+    cursor: pointer;
+}
+
+.itemschooseContainer span:hover{
+    border-bottom-color: #fff;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    padding-bottom: 20px;
+}
+
+.itemschooseContainerActivo{
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-color: #fff;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    padding-bottom: 20px;
+    
+}
+
+.dividchoose{
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bootomItemsChoose{
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    
+}
+
+.containerItemsChoose{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.itemschooseBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.itemschooseBody:hover{
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    transition: all 0.5s ease;
+}
+
+.itemschooseBody span{
+    width: 200px;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.decoration{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30px;
+    border-bottom-color: #FF4646;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}

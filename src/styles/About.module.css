@@ -1,0 +1,197 @@
+.comtainerEathome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+
+.aboutWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1366px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    /* background-image: url("/backgroundAbout.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 46px;
+    font-weight: 500;
+}
+
+.rightHeader{
+    display: flex;
+    height: 700px;
+    align-items: flex-end;
+    
+}
+
+
+.centerRightEat{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.textRightEat{
+    font-size: 60px;
+    width: 200px;
+    color:#30475E;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.textRight{
+    font-size: 60px;
+    width: 200px;
+    color:#e13b3b;
+    font-weight: 700;
+    text-align: left;
+
+}
+.containerP{
+    color:#30475E;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.buttomHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    background-color: #FF4646;
+    cursor: pointer;
+    font-weight: 500;
+    width: 200px;
+}
+
+.buttomHeader:hover{
+    background-color: #e13b3b;
+}
+
+.containerLeftsocial{
+    background-color: #e13b3b;
+    width: 80px;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.socialContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 380px;
+}
+
+.followus{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.clickSocial{
+    cursor: pointer;
+}
+
+.topsmallText{
+    color: #e13b3b;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Related CSS */
+
+.relatedText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.relatedTextSpan{
+    font-size: 30px;
+    font-weight: bold;
+    color: #30475E;
+}
+
+.wrapContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.itemCategoryContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+   
+}
+
+.headerMealtext{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.imageMealtext{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 350px;
+    color:#30475E;
+    margin-bottom: 10px;
+}
+
+.spanp{
+    font-size: 14px;
+    font-weight: 300;
+    width: 286px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.bottonCategory{
+    background-color: #FF4646;
+    color: #fff;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.bottonCategory:hover{
+    background-color: #dc3939;
+}
+
+.textPrice{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FF4646;
+}

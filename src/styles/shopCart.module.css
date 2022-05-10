@@ -1,0 +1,673 @@
+.ShopCartContainer{
+    flex: 4;
+    margin: 0 20px;
+    overflow: scroll;
+    width: 100%;
+    height: 810px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.shopCartwrap{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+.rightShop{
+    flex:2;
+    margin-right: 20px;
+}
+
+.shopCartListItem{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 240px;
+    margin-bottom: 20px;
+   
+}
+
+.shopCartListItemMeals{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.containerCenter{
+   padding: 10px;
+}
+
+.headerContainerShop{
+    display: flex;
+   justify-content: space-between;
+   /* align-items: flex-start; */
+}
+
+.inputShop{
+    width: auto;
+    height: 45px;
+    border: 2px solid #FF4646;
+  border-radius: 4px;
+  text-align:center;
+}
+.inputShop:focus{
+    outline: none;
+}
+
+
+.inputShop::-webkit-outer-spin-button,
+.inputShop::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.inputShop[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+.MasMenoShop{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* padding:10px; */
+    background-color: #FF4646;
+    border-radius: 30px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ImgShop{
+    border-radius: 10px;
+    width:80px;
+    height:80px;
+    
+}
+.titleShop{
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 16px;
+margin-bottom: 5px;
+
+ 
+}
+.buttonContainerShop{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.descShop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.detailsProteinsShop{
+    display: flex;
+    flex-direction: row;
+    background-color: #FF46461f;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+.detailsProteinsShopColor{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #FF4646;
+    margin-right: 5px;
+}
+.detailsProteinsShopColorTwo{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+text-align: center;
+letter-spacing: 0.15px;
+color: #000000;
+}
+
+
+.hederInfoShop{
+    margin-left: 10px;
+    width: 50%;
+}
+.subtotalshop{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.removeBottonShopContainer{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.removeBottonShop{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:black;
+    color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 30px !important;
+   
+
+}
+
+.pricesShop{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+}
+
+.leftShop{
+    flex:1;
+    margin-right: 20px;
+}
+.shopSubItem{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 20px;
+    
+}
+
+
+.typeofContainer{
+  margin-bottom: 12px;
+ 
+}
+
+.hederInfoShopLeft{
+    margin-left: 10px;
+    display: block;
+    
+}
+.radioInput{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.radioLabel{
+  font-size: 14px;
+}
+.bottomContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.bottomText{
+    background-color:#FF4646;
+    font-size: 14px;
+    padding: 10px;
+    color:white;
+    border-radius: 10px;
+    width:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.containerBorder{
+    border-width: 0.1px;
+    border-style: solid;
+    padding: 18px;
+    margin-bottom: 10px;
+}
+
+.ulcontainer{
+    font-size: 12px;
+    margin-right: 40px;
+}
+
+.checkLabel{
+    font-size: 14px;
+    
+    
+}
+
+.checkLabelP{
+    font-size: 12px;
+    margin-left: 10px;
+    width: 140px;
+    border-bottom-color: rgba(0, 0, 0, 0.212);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    
+}
+
+.bagContainertBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.bagmembershipBody{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   
+}
+
+.checkColor{
+    background-color: #FF4646;
+    width: 20px;
+    height: 20px;
+}
+
+
+.containerCheckglasware{
+    display: flex;
+    margin: 0 10px;
+}
+
+.dateContainer{
+    margin-bottom: 20px;
+}
+.containerWalletBalance{
+    font-size:12px;
+    margin-top: -10px;
+}
+
+.containerButtonCoupon{
+    display: flex;
+    align-items: center;
+}
+
+.couponButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FF4646;
+    padding: 10px;
+    font-size:12px;
+    color:white;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.inputContainerCupon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 12px;
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.308);
+    border-width: 0.5px;
+    height: 50px;
+    width: 260px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.inputContainer:focus{
+    outline: none;
+}
+
+.dropdowncontainer:focus{
+    outline: none;
+
+}
+
+.summaryContainer{
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+.divideLine{
+    background-color:#FF4646;
+    width: 100%;
+    height: 1px;
+    padding: 1px;
+    margin-bottom: 40px;
+}
+
+.divideLineSub{
+    background-color:#FF4646;
+    width: 100%;
+    padding: 0.1px;
+    margin-bottom: 20px;
+}
+
+.subSummary{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.subSummaryDelivery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+
+.detailsSummary{
+    font-size: 14px;
+    font-weight: 400;
+}
+.detailsSummaryDelivery{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.detailsSummaryTotal{
+    font-size: 14px;
+    font-weight: 600;
+}
+.detailsSub{
+    color: red;
+    font-size: 12px;
+}
+
+.subSummaryTotal{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF464648;
+    padding: 10px;
+    align-items: center;
+    border-width: 0.1px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.SummarygranTotal{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF4646;
+    padding: 0 10px;
+    height: 40px;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.detailsdigital{
+    background-color: #FF464648;
+    border-radius: 5px;
+    font-size: 10px;
+    color: black;
+    padding: 2px 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.noItemConstrainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.buttonSign{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttonSignUn{
+    display: flex;
+    background-color:#FF4646;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.buttonSignIn{
+    display: flex;
+    background-color:rgb(0, 139, 194);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.buttonSignIn:hover{
+    background-color:rgb(3, 109, 151);
+}
+.buttonSignUn:hover{
+    background-color:#d63737;
+}
+.buttonText{
+    color: white;
+    margin-top: 5px;
+}
+
+.itemContainerShop{
+    padding: 10px;
+    width: auto;
+    height: auto;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+     box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+     margin-bottom: 20px;
+}
+
+.iconshopLeftSideContainer{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.imgshopLeftSideContainer{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.imgshoDigitalWtSideContainer{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   margin-top: 10px;
+   
+}
+.bodyleftContainerShop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bodyRightContainerShop{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.checkLabelTwo{
+    margin-left: 44px;
+}
+
+.newButtonProceed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF4646;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.newButtonProceed:hover{
+    background-color: #d63737; 
+}
+.subSummaryRadio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.constainerRightHeaderShop{
+    display: flex;
+    flex-direction: row;
+}
+
+.constainerLeftHeaderShop{
+    display: flex;
+    flex-direction: row;
+}
+
+.CartQaantityShop{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+width: 10px;
+margin-right: 5px;
+margin-left: 5px;
+}
+
+.titleShopHeader{
+    display: flex;
+    flex-direction: column;
+    margin-left:10px ;
+}
+
+.subtotalTitleShop{
+    display: flex;
+    flex-direction: row;
+}
+.subtotalTitlefirstspan{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    /* identical to box height, or 125% */
+    text-align: center;
+    letter-spacing: 0.15px;
+    text-decoration-line:underline;
+    margin-right: 10px;
+}
+
+.subtotalTitleTwospan{
+    background-color: #FF4646;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+}
+
+
+@media(max-width:914px) {
+
+    .rightShop{
+        flex:1;
+        
+    }
+    .ShopCartContainer{
+        flex: 4;
+        margin:0;
+      
+    }
+    .shopSubItem{
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .headerContainerShop{
+        display: flex;
+        
+       
+    }
+
+    .containerCenter{
+        padding: 10px;
+     }
+
+     .hederInfoShop{
+        margin-left: 10px;
+        width: 50%;
+    }
+     .buttonContainerShop{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+   
+    .descShop{
+        width: 100%;
+        font-size: 12px;
+         
+     }
+
+
+    .subtotalshop{
+        margin-left: 10px;
+        font-size: 16px;
+    }
+
+    .shopCartListItemMeals{
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+        width: 320px;
+        height: auto;
+        margin-bottom: 20px
+    }
+
+    .buttonSign{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

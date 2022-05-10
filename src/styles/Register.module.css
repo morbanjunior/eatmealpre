@@ -1,0 +1,98 @@
+.containerContact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    /* background-image: url("/contactImag.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.textHead{
+    font-size: 46px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.containerBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.input:focus, .textarea:focus, .inputSecound:focus, .inputtree:focus{
+    outline: none;
+}
+
+.input{
+    width: 444px;
+    height: 60px;
+    padding-left: 20px;
+    border-style: none;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.inputSecound{
+    width: 904px;
+    height: 60px;
+    padding-left: 20px;
+    border-style: none;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.inputtree{
+    width: 100%;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.textarea{
+    width: 904px;
+    height: 131px;
+    padding: 20px;
+    border-style: none;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.bottomInputs{
+    display: flex;
+    flex-direction: row;
+    width: 930px;
+}
+
+
+.buttonContact{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-style: solid;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 20px;
+
+}
+
+.buttonContact:hover{
+    background-color: rgba(255, 255, 255, 0.268);
+}
+
+.registerLink{
+    color: #fff;
+    margin-top: 30px;
+}
+
+.errorContainer{
+    color:red;
+    font-size: larger;
+    background-color: #fff;
+}

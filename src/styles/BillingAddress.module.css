@@ -1,0 +1,181 @@
+.addressContainerCart{
+    margin-top: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+   background-color: white;
+}
+
+.wrapAddress{
+    padding: 10px;
+}
+
+.titleBilling{
+    margin-bottom: 40px;
+}
+
+.constrainerInput{
+    display: flex;
+    
+}
+
+.inputText1{
+    margin-left: 20px;
+}
+
+
+.inputText2,.inputText1:focus{
+    outline: none;
+}
+
+.deliverCheck{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.titleSameBilling{
+    margin-right: 150px;
+}
+
+.checkinput{
+    padding-left: 10px;
+}
+
+.notaContainer{
+    width: auto;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+
+}
+.buttonProceed{
+    display: flex;
+    background-color: #FF4646;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttonProceed:hover{
+    background-color: #d43838;
+}
+
+.locationAddContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.BillingTextHeader{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+text-align: center;
+letter-spacing: 1.25px;
+text-transform: capitalize;
+}
+
+.BillingTextIcom{
+    font-size: 30px !important;
+}
+
+.ContainerBillingIcon{
+    display: flex;
+    align-items: center;
+}
+
+.bottomAddNewBilling{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF4646;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.46px;
+    text-transform: uppercase;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bottomAddNewBilling:hover{
+    background-color: #d43838;
+}
+
+.IncomMoto{
+    color:#FF4646;   
+    font-size: 30px !important;
+    margin-right: 5px;
+    
+}
+
+.ShiptoText{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+text-align: center;
+letter-spacing: 1.25px;
+color: #000000;
+}
+
+.IncomMotoconatiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    /* width: 200px; */
+    flex: 1;
+   
+}
+
+.IncomMotoconatinerTwo{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 10px;
+   
+}
+.ShiptoTextUsuario{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 275;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+text-align: center;
+letter-spacing: 1.25px;
+text-transform: capitalize;
+}
+
+.IncomMotoconatinerBottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.ShiptoTextSameBilling{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+text-align: center;
+letter-spacing: 1.25px;
+color: #000000;
+}

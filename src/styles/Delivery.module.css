@@ -1,0 +1,72 @@
+.aboutHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    /* background-image: url("/backgroundAbout.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 46px;
+    font-weight: 500;
+}
+
+.comtainerEathome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+
+.deliveywrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1366px;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+
+
+
+.textRightEat{
+    font-size: 36px;
+    width: 200px;
+    color:#30475E;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+.textRight{
+    font-size: 36px;
+    width: 200px;
+    color:#e13b3b;
+    font-weight: 500;
+    text-align: left;
+
+}
+.containerP{
+    color:#30475E;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.buttomHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    background-color: #FF4646;
+    cursor: pointer;
+    font-weight: 500;
+    width: 200px;
+}
+
+.buttomHeader:hover{
+    background-color: #e13b3b;
+}

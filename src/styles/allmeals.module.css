@@ -1,0 +1,11 @@
+.homeDash{
+    flex: 4;
+    height: 800px;
+    margin-top: 20px;
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}
+

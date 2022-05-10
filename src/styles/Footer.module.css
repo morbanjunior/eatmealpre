@@ -1,0 +1,24 @@
+.containerFooter{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footerWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1366px;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerFooter div{
+    color: #30475E;
+}
+
+.link{
+   cursor: pointer;
+}
