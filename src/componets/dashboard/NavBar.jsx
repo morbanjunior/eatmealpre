@@ -5,37 +5,37 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import AccountBalanceWalletOutlinedIcon from '@mui/icons-material/AccountBalanceWalletOutlined';
 import styles from '../../styles/navbarAdmin.module.css'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import user from '../../image/user.png'
 
-const NavBar = ({SetIsLogin}) => {
+const NavBar = () => {
     const totalQuantity = useSelector((state) => state.cart.cartTotalQuantity);
     const navigate = useNavigate();
 
 const logout =()=>{
   localStorage.removeItem("login");
-  SetIsLogin(false)
   navigate('/');
 }
 
   return (
     <>
 <div>
-  <div className="preloader flex-column justify-content-center align-items-center">
-    {/* <img className="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height={60} width={60} /> */}
-  </div>
+  {/* <div className="preloader flex-column justify-content-center align-items-center">
+    <img className="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height={60} width={60} />
+  </div> */}
   <nav className="main-header navbar navbar-expand navbar-white navbar-light">
     <ul className="navbar-nav">
       <li className="nav-item">
         <a className="nav-link" data-widget="pushmenu" href="#" role="button"><i className="fas fa-bars" /></a>
       </li>
-      <li className="nav-item d-none d-sm-inline-block">
+      {/* <li className="nav-item d-none d-sm-inline-block">
         <a href="index3.html" className="nav-link">Home</a>
       </li>
       <li className="nav-item d-none d-sm-inline-block">
         <a href="#" className="nav-link">Contact</a>
-      </li>
+      </li> */}
     </ul>
     <ul className="navbar-nav ml-auto">
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a className="nav-link" data-widget="navbar-search" href="#" role="button">
           <i className="fas fa-search" />
         </a>
@@ -54,8 +54,8 @@ const logout =()=>{
             </div>
           </form>
         </div>
-      </li>
-      <li className="nav-item dropdown">
+      </li> */}
+      {/* <li className="nav-item dropdown">
         <a className="nav-link" data-toggle="dropdown" href="#">
           <i className="far fa-comments" />
           <span className="badge badge-danger navbar-badge">3</span>
@@ -105,8 +105,9 @@ const logout =()=>{
           <div className="dropdown-divider" />
           <a href="#" className="dropdown-item dropdown-footer">See All Messages</a>
         </div>
-      </li>
-      <li className="nav-item dropdown">
+      </li> */}
+      {/* end */}
+      {/* <li className="nav-item dropdown">
         <a className="nav-link" data-toggle="dropdown" href="#">
           <i className="far fa-bell" />
           <span className="badge badge-warning navbar-badge">15</span>
@@ -131,15 +132,53 @@ const logout =()=>{
           <div className="dropdown-divider" />
           <a href="#" className="dropdown-item dropdown-footer">See All Notifications</a>
         </div>
-      </li>
+      </li> */}
       {/*  */}
-      <Link to="/dashboard/cart"> 
+      <Link to="/wallet"> 
       <li className="nav-item">
       <a className="nav-link" >
-        <ShoppingCartIcon/>
-          <span className="badge badge-warning navbar-badge">15</span>
+      <AccountBalanceWalletOutlinedIcon className='fa '/>
+      <span className=""> $724.75</span>
         </a>
-      
+      </li></Link>
+      {/*  */}
+      {/*  */}
+      <li className="nav-item dropdown">
+        <a className="nav-link" data-toggle="dropdown" href="#">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        </a>
+        <div className="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <a href="#" className="dropdown-item">
+            <div className="media">
+              <img src={user} alt="User Avatar" className="img-size-50 mr-3 img-circle" />
+              <div className="media-body">
+                <h3 className="dropdown-item-title">
+                 Ramon Morban
+                </h3>
+                <p className="text-sm">morbanjunior@gmail.com</p>
+              </div>
+            </div>
+          </a>
+          <div className="dropdown-divider" />
+          <a href="#" className="dropdown-item">
+            <i className="fas fa-key mr-2" /> Change password
+          </a>
+          <div className="dropdown-divider" />
+          <a href="#" className="dropdown-item">
+            <i className="fa fa-cog mr-2" /> User Settings
+          </a>
+          <div className="dropdown-divider" />
+          <a onClick={logout} className="dropdown-item dropdown-footer">Log Out</a>
+        </div>
+      </li>
+      {/*  */}
+      {/*  */}
+      <Link to="/cart"> 
+      <li className="nav-item">
+      <a className="nav-link" >
+      <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        {totalQuantity ? <span className="badge badge-warning navbar-badge">{totalQuantity}</span>: ""}
+        </a>
       </li></Link>
       {/*  */}
       <li className="nav-item">
@@ -147,11 +186,11 @@ const logout =()=>{
           <i className="fas fa-expand-arrows-alt" />
         </a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a className="nav-link" data-widget="control-sidebar" data-controlsidebar-slide="true" href="#" role="button">
           <i className="fas fa-th-large" />
         </a>
-      </li>
+      </li> */}
     </ul>
   </nav>
 </div>

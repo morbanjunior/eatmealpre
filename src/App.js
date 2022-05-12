@@ -21,6 +21,13 @@ import Address from './componets/dashboard/Address';
 import Allmeals from './componets/dashboard/Allmeals';
 import CustomMeal from './componets/CustomMeal';
 import Cart from './pages/Cart';
+import LayoutDashboard from './componets/LayoutDashboard'
+import Gifcard from './componets/Gifcard';
+import Wallet from './pages/wallet/Wallet';
+import ForgotPassword from './pages/ForgotPassword';
+import ChangePassword from './pages/ChangePassword';
+import Profile from './pages/Profile';
+import Faq from './pages/Faq';
 
 
 const App = () => {
@@ -53,18 +60,28 @@ const App = () => {
          <Route path="/login" exact element={<NoRequireAuth><Login/></NoRequireAuth>} />
          <Route path="/register" exact element={<NoRequireAuth><Register/></NoRequireAuth>} />
          <Route path="/shopcart" exact element={<NoRequireAuth><ShopCart/></NoRequireAuth>} />
+         <Route path="/forgotpassword" exact element={<NoRequireAuth><ForgotPassword/></NoRequireAuth>} />
+         {/* <Route path="/faq" exact element={<NoRequireAuth><Faq/></NoRequireAuth>} /> */}
          
-         <Route path="/dashboard" exact element={<RequireAuth><Dashboard/></RequireAuth>}>
-           <Route path="order"  element={<RequireAuth><Order/></RequireAuth>} />   
-           <Route path="customMeal" element={<RequireAuth><CustomMeal/></RequireAuth>} />
-           <Route path="address" element={<RequireAuth><Address/></RequireAuth>} />
-           <Route path="cart" element={<RequireAuth><Cart/></RequireAuth>} />
-         </Route>
+
+            <Route path="/dashboard" exact element={<RequireAuth><LayoutDashboard><Allmeals/></LayoutDashboard></RequireAuth>}/>
+            <Route path="/order" exact element={<RequireAuth><LayoutDashboard><Order/></LayoutDashboard></RequireAuth>} />   
+            <Route path="/customMeal" exact element={<RequireAuth><LayoutDashboard><CustomMeal/></LayoutDashboard></RequireAuth>} />
+            <Route path="/address" exact element={<RequireAuth><LayoutDashboard><Address/></LayoutDashboard></RequireAuth>} />
+            <Route path="/cart" exact element={<RequireAuth><LayoutDashboard><Cart/></LayoutDashboard></RequireAuth>} />
+            <Route path="/gifcard" exact element={<RequireAuth><LayoutDashboard><Gifcard/></LayoutDashboard></RequireAuth>} />
+            <Route path="/wallet" exact element={<RequireAuth><LayoutDashboard><Wallet/></LayoutDashboard></RequireAuth>} />
+            <Route path="/changePassword" exact element={<RequireAuth><LayoutDashboard><ChangePassword/></LayoutDashboard></RequireAuth>} />
+            <Route path="/Profile" exact element={<RequireAuth><LayoutDashboard><Profile/></LayoutDashboard></RequireAuth>} />
+            <Route path="/faq" exact element={<RequireAuth><LayoutDashboard><Faq/></LayoutDashboard></RequireAuth>} />
+          
 
          <Route path="/contact" exact element={<NoRequireAuth><ContactUs/></NoRequireAuth>} />
          <Route path="/page404" exact element={<Custom404/>} />
          <Route path="*" element={<Navigate to ="/page404" />}/>
-       </Routes>  
+       </Routes> 
+        
+       <Footer/>
       </div>
      </BrowserRouter>
     

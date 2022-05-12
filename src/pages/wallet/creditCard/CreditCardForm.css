@@ -1,0 +1,60 @@
+.containerCredit {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+   
+  }
+  
+  .formDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+   /* width: 400px;
+    padding: 30px; 
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44); */
+  }
+  
+  .alert {
+    margin-top: 20px;
+  }
+  
+  .creditCard{
+      margin-right: 10px;
+      margin-bottom: 10px;
+  }
+
+  .inputcard{
+    border-radius: 5px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  .inputcardRow{
+    margin-right: -10px !important;
+    margin-left: -10px !important;
+    margin-top: -5px !important;
+    
+  }
+  .boxCard{
+    display: block;
+   
+  }
+
+  .alertContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    border-color: white;
+    color: red;
+    padding: 0px;
+    
+  }

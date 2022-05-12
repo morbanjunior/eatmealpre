@@ -5,12 +5,12 @@ export const RequireAuth = ({ children }) =>{
    
     const currentUser = localStorage["login"];
     
-    return (true ? children : <Navigate to="/login" />)
+    return (currentUser ? children : <Navigate to="/login" />)
   }
 
   export const NoRequireAuth = ({ children }) =>{
    
     const currentUser = localStorage["login"];
     
-    return (false ? children : <Navigate to="/dashboard" />)
+    return (!currentUser ? children : <Navigate to="/dashboard" />)
   }

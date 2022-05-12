@@ -62,7 +62,7 @@ const Aside = () => {
                 <li className="nav-header"></li>
                
                 <li className="nav-item">
-                <Link to="/dashboard/order" className="nav-link">
+                <Link to="/order" className="nav-link">
                    <AssignmentOutlinedIcon className="nav-icon"/>
                     <p>
                     My orders
@@ -71,7 +71,7 @@ const Aside = () => {
                 </li>
 
                 <li className="nav-item">
-                <Link to="/dashboard/address" className="nav-link">
+                <Link to="/address" className="nav-link">
                 <BadgeOutlinedIcon className="nav-icon" />
                     <p>
                     Adress
@@ -80,7 +80,7 @@ const Aside = () => {
                 </li>
 
                 <li className="nav-item">
-                <Link to="/dashboard/" className="nav-link">
+                <Link to="/dashboard" className="nav-link">
                 <TakeoutDiningOutlinedIcon className="nav-icon" />
                     <p>
                     Book Catering
@@ -91,7 +91,7 @@ const Aside = () => {
                 
 
                 <li className="nav-item">
-                <Link to="/dashboard/" className="nav-link">
+                <Link to="/dashboard" className="nav-link">
                 <VolunteerActivismOutlinedIcon className="nav-icon" />
                     <p>
                     Donate
@@ -118,7 +118,7 @@ const Aside = () => {
                 <ul className="nav nav-treeview">
                     <li className="nav-item">
                     <Link to={{
-                        pathname:`/dashboard/maelpremenu/Meal Prep Menu`
+                        pathname:`/maelpremenu/Meal Prep Menu`
                         }} className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>Meal Prep Menu</p>
@@ -126,7 +126,7 @@ const Aside = () => {
                     </li>
                     <li className="nav-item">
                     <Link to={{
-                        pathname:`/dashboard/maelpremenu/Keto`
+                        pathname:`/maelpremenu/Keto`
                         }} className="nav-link">
                             <i className="far fa-circle nav-icon" />
                         <p>Keto</p>
@@ -134,7 +134,7 @@ const Aside = () => {
                     </li>
                     <li className="nav-item">
                     <Link to={{
-                        pathname:`/dashboard/maelpremenu/New Menu`
+                        pathname:`/maelpremenu/New Menu`
                         }}className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>New Menu</p>
@@ -142,7 +142,7 @@ const Aside = () => {
                     </li>
                     <li className="nav-item">
                     <Link to={{
-                        pathname:`/dashboard/maelpremenu/Groceries`
+                        pathname:`/maelpremenu/Groceries`
                         }} className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>Groceries</p>
@@ -150,7 +150,7 @@ const Aside = () => {
                     </li>
                     <li className="nav-item">
                     <Link to={{
-                        pathname:`/dashboard/maelpremenu/Reselected Packs`
+                        pathname:`/maelpremenu/Reselected Packs`
                         }} className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>Reselected Packs</p>
@@ -158,7 +158,7 @@ const Aside = () => {
                     </li>
                     <li className="nav-item">
                     <Link to={{
-                        pathname:`/dashboard/maelpremenu/Bulk Meals`
+                        pathname:`/maelpremenu/Bulk Meals`
                         }} className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>Paleo Meals</p>
@@ -166,7 +166,7 @@ const Aside = () => {
                     </li>
                     <li className="nav-item">
                     <Link to={{
-                        pathname:`/dashboard/maelpremenu/Bulk Meals`
+                        pathname:`/maelpremenu/Bulk Meals`
                         }} className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>Bulk Meals</p>
@@ -174,7 +174,7 @@ const Aside = () => {
                     </li>
                     <li className="nav-item">
                     <Link to={{
-                        pathname:`/dashboard/maelpremenu/$9 menu`
+                        pathname:`/maelpremenu/$9 menu`
                         }} className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>$9 menu</p>
@@ -182,7 +182,7 @@ const Aside = () => {
                     </li>
                     <li className="nav-item">
                     <Link to={{
-                        pathname:`/dashboard/maelpremenu/Diabetic Meals`
+                        pathname:`/maelpremenu/Diabetic Meals`
                         }} className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>Diabetic Meals</p>
@@ -190,7 +190,7 @@ const Aside = () => {
                     </li>
                     <li className="nav-item">
                     <Link to={{
-                        pathname:`/dashboard/maelpremenu/Gourmet Meals`
+                        pathname:`/maelpremenu/Gourmet Meals`
                         }} className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>Gourmet Meals</p>
@@ -206,7 +206,7 @@ const Aside = () => {
                     </li>
                     <li className="nav-item">
                     <Link to={{
-                        pathname:`/dashboard/customMeal`
+                        pathname:`/customMeal`
                         }} className="nav-link">
                         <i className="far fa-circle nav-icon" />
                         <p>Custom Meal Prep</p>
@@ -217,7 +217,7 @@ const Aside = () => {
                 </li>
 
                 <li className="nav-item">
-                <Link to="/dashboard/wallet" className="nav-link">
+                <Link to="/wallet" className="nav-link">
                 <AccountBalanceWalletOutlinedIcon className="nav-icon" />
                     <p>
                     Digital Wallet
@@ -225,7 +225,7 @@ const Aside = () => {
                 </Link>
                 </li>
                 <li className="nav-item">
-                <Link to="/dashboard/faqdash" className="nav-link">
+                <Link to="/faq" className="nav-link">
 
                     <QuizOutlinedIcon className="nav-icon" />
                     <p>
@@ -235,7 +235,7 @@ const Aside = () => {
                 </li>
 
                 <li className="nav-item">
-                <Link to="/dashboard/gifcard" className="nav-link">
+                <Link to="/gifcard" className="nav-link">
                     <CardGiftcardOutlinedIcon className="nav-icon"/>
                     <p>
                     Gift Card
@@ -244,7 +244,7 @@ const Aside = () => {
                 </li>
 
                 <li className="nav-item">
-                <Link to="/dashboard/faqdash" className="nav-link">
+                <Link to="/faqdash" className="nav-link">
                     <SpaOutlinedIcon className="nav-icon"/>
                     <p>
                     Nutrition Packages
@@ -253,7 +253,7 @@ const Aside = () => {
                 </li>
 
                 <li className="nav-item">
-                <Link to="/dashboard/faqdash" className="nav-link">
+                <Link to="/faqdash" className="nav-link">
                     <AirportShuttleOutlinedIcon className="nav-icon"/>
                     <p>
                     Pickup Glasssware
@@ -262,7 +262,7 @@ const Aside = () => {
                 </li>
 
                 <li className="nav-item">
-                <Link to="/dashboard/referEarn" className="nav-link">
+                <Link to="/referEarn" className="nav-link">
                     <MonetizationOnOutlinedIcon className="nav-icon"/>
                     <p>
                     Refer & Earn
@@ -272,7 +272,7 @@ const Aside = () => {
 
 
                 <li className="nav-item">
-                <Link to="/dashboard/profile" className="nav-link">
+                <Link to="/profile" className="nav-link">
                 <PersonOutlinedIcon className="nav-icon"/>
                     <p>
                     Profile
@@ -281,7 +281,7 @@ const Aside = () => {
                 </li>
 
                 <li className="nav-item">
-                <Link to="/dashboard/changePassword" className="nav-link">
+                <Link to="/changePassword" className="nav-link">
                     <PasswordOutlinedIcon className="nav-icon"/>
                     <p>
                     Password
@@ -291,7 +291,7 @@ const Aside = () => {
                 
 
                 <li className="nav-item">
-                <Link to="/dashboard/contact" className="nav-link">
+                <Link to="/contact" className="nav-link">
                     <EmailOutlinedIcon className="nav-icon" />
                     <p>
                     Contact Us

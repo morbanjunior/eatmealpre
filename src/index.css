@@ -8,15 +8,18 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #30475E !important;
   text-decoration: none;
 }
 
 a:hover{
-  color: rgb(238, 66, 66);
+  color: rgb(238, 66, 66) !important;
 }
 
 * {
   box-sizing: border-box;
 }
 
+input:focus, textarea:focus, select:focus {
+  outline: none !important;
+}

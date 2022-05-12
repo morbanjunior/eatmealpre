@@ -12,69 +12,67 @@ import BeatLoader from "react-spinners/ClipLoader";
 const Login = () => {
 
   const [email, SetUserEmail] = useState('');
-  const [password, SetPassword] = useState('');
+  // const [password, SetPassword] = useState('');
   const [errorLoing, SetErrorLoing] = useState('');
 
   const navigate = useNavigate()
 
-  const [loginUser,{data, isError, error, isLoading}] = useLoginUserMutation();
+  // const [loginUser,{data, isError, error, isLoading}] = useLoginUserMutation();
 
-  useEffect(() => {
+//   useEffect(() => {
 
-    if(data && data.data.access_token){
-      localStorage.setItem(
-        "login",
-        JSON.stringify({
-          userLogin: true,
-          token: data.data.access_token,
-          userData: data.data.user
+//     if(data && data.data.access_token){
+//       localStorage.setItem(
+//         "login",
+//         JSON.stringify({
+//           userLogin: true,
+//           token: data.data.access_token,
+//           userData: data.data.user
           
-        })
-      );
-      SetErrorLoing('');
-      SetUserEmail('');
-      SetUserEmail('');
-      navigate('/dashboard')
-      // SetIsLogin(true)
-    }
-   if(isError){
+//         })
+//       );
+//       SetErrorLoing('');
+//       SetUserEmail('');
+//       SetUserEmail('');
+//       navigate('/dashboard')
+//       // SetIsLogin(true)
+//     }
+//    if(isError){
    
-    if(JSON.stringify(error.status) == '401'){
-      // SetErrorLoing(JSON.stringify(error.data.error.message));
-      toast.error(JSON.stringify(error.data.error.message), {
-        position: "top-left",
-      });
-    }
+//     if(JSON.stringify(error.status) == '401'){
+//       // SetErrorLoing(JSON.stringify(error.data.error.message));
+//       toast.error(JSON.stringify(error.data.error.message), {
+//         position: "top-left",
+//       });
+//     }
     
-   }
+//    }
   
    
-},[data, isError])
+// },[data, isError])
 
-  const sign_in = {
-            "login": email,
-          "password": password
-       }
+  // const sign_in = {
+  //           "login": email,
+  //         "password": password
+  //      }
 
   const HandlerLogin = async (e) =>{
         e.preventDefault();
   
-       if(email=='' || password==''){
+       if(email==''){
         // SetErrorLoing('Email or password are required')
-        toast.error('Email or password are required', {
+        toast.error('Email or user are required', {
           position: "top-left",
         });
        }
        else{
-        await loginUser({sign_in})
+        // await loginUser({sign_in})
          
        }
        
     }
 
-    if(data){
-      console.log(JSON.stringify(data.data.access_token));
-     }
+
 
   return (
     <>
@@ -93,7 +91,7 @@ const Login = () => {
         
   
       }}>
-      <span className={styles.textHead}>Log In</span>
+      <span className={styles.textHead}>Lost password?</span>
           <div className={styles.containerBody}>
             <div>
               <input placeholder='User or Email' type='text' className={styles.input}
@@ -105,20 +103,13 @@ const Login = () => {
               
             </div>
             {/*  */}
-            <div>
-               <input placeholder='password' type='password' className={styles.input}
-                  value={password} onChange={ (event) => {
-                    SetPassword(event.target.value)
-                    SetErrorLoing('')
-                   }}
-               />  
-            </div>
-            <BeatLoader loading={isLoading}  size={35} />
+           
+            {/* <BeatLoader loading={isLoading}  size={35} /> */}
             {/* <div className={styles.errorLogin}> {errorLoing} </div> */}
-            <div className={styles.buttonContact} onClick={HandlerLogin}>Log In</div>
-            
+            <div className={styles.buttonContact} onClick={HandlerLogin}>Send instruction</div>
+            <span className={styles.registerLink}>Are you a member? <Link to='/login'> Log in here</Link></span>
             <span className={styles.registerLink}>Not yet a member? <Link to='/register'> Register here</Link></span>
-            <Link to='/forgotpassword'> Forgot Password</Link>
+            
           </div>
       </div>
       </>
