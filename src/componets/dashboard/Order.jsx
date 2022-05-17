@@ -11,13 +11,6 @@ const orderList = [{name:"1"}, {name:"2"}, {name:"3"}, {name:"4"},]
 
 const Order = () => {
 
-  // const navigate = useNavigate();
-
-  // useEffect(() => {
-  //   if(!isLogin){
-  //     navigate('/signin');
-  //      }
-  // })
 
   const options = [
     { value: 'all', label: 'All' },
@@ -27,30 +20,21 @@ const Order = () => {
     { value: 'outofDelivery', label: 'Out of Delivery' },
     { value: 'delivered', label: 'Delivered' }
   ]
-  // const MyComponent = () => (
-    // <Select 
-    // options={options}
-    // defaultValue={options[0]} 
-    // theme={(theme) => ({
-    //   ...theme,
-    //   borderRadius: 0,
-    //   colors: {
-    //     ...theme.colors,
-    //     primary25: 'green',
-    //     primary: 'green',
-    //   },
-      
-    // })}
-    // />
-  // )
+
+
   return (
     <div>
-      <div className='order-container'>
+      <div >
         <div className={styles.inputContainer}>
           <input className={styles.inputProp} type="text" placeholder='Search by Order # / Mobile Number'/>
-                        <div className={styles.inputFilter}>
-                        {/* <MyComponent/> */}
-                        </div>
+               <select name="lifactive" id="lifactive" className={styles.inputFilter}>
+                   <option value="Lightly Active">Lightly Active</option>
+                   <option value="Moderately Active">Moderately Active</option>
+                   <option value="Very Active">Very Active</option>
+                   <option value="Extra Active">Extra Active</option>
+               </select>
+                  
+         
         </div>
       
         {

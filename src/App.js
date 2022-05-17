@@ -28,6 +28,7 @@ import ForgotPassword from './pages/ForgotPassword';
 import ChangePassword from './pages/ChangePassword';
 import Profile from './pages/Profile';
 import Faq from './pages/Faq';
+import ContacDash from './pages/ContacDash';
 
 
 const App = () => {
@@ -74,6 +75,7 @@ const App = () => {
             <Route path="/changePassword" exact element={<RequireAuth><LayoutDashboard><ChangePassword/></LayoutDashboard></RequireAuth>} />
             <Route path="/Profile" exact element={<RequireAuth><LayoutDashboard><Profile/></LayoutDashboard></RequireAuth>} />
             <Route path="/faq" exact element={<RequireAuth><LayoutDashboard><Faq/></LayoutDashboard></RequireAuth>} />
+            <Route path="/contacdash" exact element={<RequireAuth><LayoutDashboard><ContacDash/></LayoutDashboard></RequireAuth>} />
           
 
          <Route path="/contact" exact element={<NoRequireAuth><ContactUs/></NoRequireAuth>} />

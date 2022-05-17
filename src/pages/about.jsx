@@ -24,7 +24,7 @@ const About = () => {
         <Headerpages name='About Us'/>
         <div className={styles.comtainerEathome}>
         <div className={styles.aboutWrapper}>
-            <div >
+            <div className={styles.contaienrBody}>
               <div className={styles.centerRightEat}>
                     <span className={styles.textRightEat}>
                     About </span><span className={styles.textRight}>Us</span>
@@ -52,7 +52,7 @@ const About = () => {
  <div className={styles.wrapContainer}>
       {foods.map((food, index)=>(
         <>
-      {/* Items */}
+      
         <div className={styles.itemCategoryContainer} key={index}>
             <img src={plate} alt="" />
             <div className={styles.imageMealtext}>
@@ -67,7 +67,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-      {/* End Items */}
+      
       </>
       ))}
     </div>

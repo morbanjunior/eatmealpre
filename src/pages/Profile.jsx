@@ -6,10 +6,11 @@ import styles from '../styles/profile.module.css'
 
 
 const Profile = () => {
+  const dataUser = JSON.parse(localStorage.getItem('login'));
+    console.log(dataUser.userData.first_name);
 
-
-    const [firstName, SetFirstName] = useState()
-    const [lastName, SetLastName] = useState()
+    const [firstName, SetFirstName] = useState(dataUser.userData.first_name)
+    const [lastName, SetLastName] = useState(dataUser.userData.last_name)
     const [startDate, setStartDate] = useState();
     const [phoneNumber, setPhoneNumber] = useState();
     const [secondPhoneNumber, setSecondPhoneNumber] = useState();
@@ -18,8 +19,9 @@ const Profile = () => {
     const [weight, setWeight] = useState();
     const [weightGoal, setWeightGoal] = useState();
     const [loose, setLoose] = useState();
-    const [referralEmail, setReferralEmail] = useState();
+    const [referralEmail, setReferralEmail] = useState(dataUser.userData.email);
 
+  
 
   return (
     <div >

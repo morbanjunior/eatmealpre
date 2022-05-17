@@ -12,7 +12,7 @@ const Topbar = () => {
   return (
       <div className={styles.containerTopbar}>
          <div className={styles.topwrapper}>
-            <span>Eat well, live well!</span>
+            <span className={styles.topText}>Eat well, live well!</span>
             <div className={styles.ContainerIconstop}>
                   <Link to='/register' className={styles.iconTops}>
                      <PersonAddAltIcon className={styles.iconSpace}/>

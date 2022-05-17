@@ -11,7 +11,7 @@ const Footer = () => {
         
         <div className={styles.footerWrapper}>
             <Link to='/' ><img src={LogoEat} alt="" className={styles.link}/></Link>
-          <div>Copyright Ⓒ 2020 - Eat Meal Prep</div>
+          <div className={styles.textFooter}>Copyright Ⓒ 2020 - Eat Meal Prep</div>
         </div>
     
       </div>

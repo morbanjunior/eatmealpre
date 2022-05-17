@@ -146,7 +146,7 @@ const sign_up = {
       }}>
       <span className={styles.textHead}>Register</span>
           <div className={styles.containerBody}>
-            <div>
+            <div className={styles.containerinput}>
               <input placeholder='Firt Name *' type='text' className={styles.input} 
                 value={firstName}
                 onChange={(event) => {
@@ -160,7 +160,7 @@ const sign_up = {
               />
             </div>
             {/*  */}
-            <div>
+            <div className={styles.containerinput}>
               <input placeholder='Email *' type='email' className={styles.inputSecound}
               value={email}
               onChange={(event) => {SetEmail(event.target.value)
@@ -168,7 +168,7 @@ const sign_up = {
               />
             </div>
             {/*  */}
-            <div>
+            <div className={styles.containerinput}>
               <input placeholder='Password *' type='password' className={styles.input}
               value={password}
               onChange={(event) => {setPassword(event.target.value)
@@ -206,7 +206,7 @@ const sign_up = {
              
             <div className={styles.buttonContact} onClick={handlerRegister}>Submit</div>
 
-            <span className={styles.registerLink}>Are you a member? <Link to='/login'> Log in here</Link></span>
+            <span className={styles.registerLink}>Are you a member? <Link to='/login' className={styles.loginLink}> Log in here</Link></span>
           </div>
       </div>
       </>

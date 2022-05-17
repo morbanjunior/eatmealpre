@@ -15,7 +15,7 @@ const Home = () => {
     <>
     <Topbar/>
     <Nav home={true}/>
-    <Header/>
+     <Header/>
     <BestforUs/>
     <Amounts/>
     <Eathome/>

@@ -66,3 +66,14 @@
     color: #FF4646;
     margin-top: 20px;
 }
+
+@media(max-width:1366px) {
+    
+    .containerSomeFeatures{
+        height: auto;
+    }
+
+    .itemFeatures{
+        margin-left: 0;
+    }
+}

@@ -9,7 +9,7 @@ const WeServe = () => {
     <div className={styles.comtainerEathome}>
         <div className={styles.eathWrapper}>
             <img src={pinchoMeal} alt="" className={styles.imageheader}/>
-              <div>
+              <div className={styles.containerText}>
                 <span className={styles.topsmallText}>EAT MEAL PREP</span>
                 <div className={styles.centerRightEat}>
                       <span className={styles.textRightEat}>

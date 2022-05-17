@@ -6,17 +6,18 @@ import backgroundTestimonio from '../../image/backgroundTestimonio.png'
 import quotes from '../../image/quotes.png'
 const Testimonial = () => {
   return (
-      <div style={{
-        display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          backgroundImage: `url(${ backgroundTestimonio}), url(${ quotes})`,
-          backgroundRepeat: 'no-repeat, no-repeat',
-          backgroundPosition: 'left , right' ,
-          height:'683px',
-          marginTop: '20px',
-          marginBottom: '20px',
-      }}>
+      // <div style={{
+      //   display: 'flex',
+      //     justifyContent: 'center',
+      //     alignItems: 'center',
+      //     backgroundImage: `url(${ backgroundTestimonio}), url(${ quotes})`,
+      //     backgroundRepeat: 'no-repeat, no-repeat',
+      //     backgroundPosition: 'left , right' ,
+      //     height:'683px',
+      //     marginTop: '20px',
+      //     marginBottom: '20px',
+      // }}>
+        <div className={styles.containerTestimonial}>
           <div className={styles.testimonialWrapper}>
             <div className={styles.rightTestimonial}>
                 <div className={styles.rightTestimonialItems}>

@@ -291,7 +291,7 @@ const Aside = () => {
                 
 
                 <li className="nav-item">
-                <Link to="/contact" className="nav-link">
+                <Link to="/contacdash" className="nav-link">
                     <EmailOutlinedIcon className="nav-icon" />
                     <p>
                     Contact Us

@@ -9,10 +9,14 @@
 .aboutWrapper{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     max-width: 1366px;
     justify-content: space-between;
     align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+
 }
 
 .aboutHeader{
@@ -36,11 +40,11 @@
 }
 
 
-.centerRightEat{
+/* .centerRightEat{
     display: flex;
     flex-direction: row;
 
-}
+} */
 
 .textRightEat{
     font-size: 60px;
@@ -123,7 +127,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
+    margin-top: 40px;
 }
 
 .relatedTextSpan{
@@ -140,7 +144,7 @@
     justify-content: center;
     padding-top: 40px;
     flex-wrap: wrap;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     margin-bottom: 200px;
 }
 
@@ -194,4 +198,119 @@
     font-size: 18px;
     font-weight: 700;
     color: #FF4646;
+}
+
+
+@media(max-width:1096px) {
+    .imageheader{
+        margin-top: 20px;
+    }
+
+    .aboutWrapper{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .centerRightEat{
+        justify-content: center;
+        align-items: center;
+    }
+   .centerRightEat span{
+    text-align: center;
+   }
+
+   .buttomHeader{
+    
+   }
+
+   .buttonLink{
+    align-items: center;
+    justify-content: center;
+   }
+
+   .contaienrBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+}
+
+@media(max-width:649px) {
+    .imageheader{
+        width: 80%;
+    }
+
+    .containerP{
+        width: 80%;
+        font-size: 12px;
+    }
+
+    .imageMealtext{
+        margin-left: 20px;
+    }
+
+    .itemCategoryContainer{
+        width: 80%;
+    }
+
+    .itemCategoryContainer{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerMealtext{
+        font-size: 13px;
+    font-weight: 600;
+    }
+
+    .spanp{
+        font-size: 12px;
+        font-weight: 300;
+        width: 250px;
+    }
+
+    .itemCategoryContainer img{
+        width: 40%;
+    }
+}
+
+@media(max-width:393px) {
+
+    .containerP{
+        width: 80%;
+        font-size: 12px;
+    }
+
+    .imageMealtext{
+        margin-left: 20px;
+    }
+
+    .itemCategoryContainer{
+        width: 80%;
+    }
+
+    .itemCategoryContainer{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerMealtext{
+        font-size: 13px;
+    font-weight: 600;
+    }
+
+    .spanp{
+        font-size: 12px;
+        font-weight: 300;
+        width: 250px;
+    }
+
+    .itemCategoryContainer img{
+        width: 30%;
+    }
+
+    .textPrice{
+        font-size: smaller;
+    }
 }

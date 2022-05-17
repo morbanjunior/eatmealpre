@@ -7,7 +7,7 @@ const Eathome = () => {
   return (
     <div className={styles.comtainerEathome}>
           <div className={styles.eathomeWrapper}>
-                <div>
+                <div className={styles.rightEat}>
                   <span className={styles.topsmallText}>EAT MEAL PREP</span>
                   <div className={styles.centerRightEat}>
                         <span className={styles.textRightEat}>

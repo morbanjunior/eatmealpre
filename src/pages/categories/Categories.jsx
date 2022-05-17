@@ -38,7 +38,8 @@ const Categories = ({categorylist, isLoading, error}) => {
                backgroundRepeat: 'no-repeat',
                backgroundSize: 'cover',
                marginBottom: "30px",
-               marginRight: "30px",
+               marginRight: "15px",
+               marginLeft: "15px",
                cursor: 'pointer'
 
         }}>

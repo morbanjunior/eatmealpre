@@ -15,6 +15,7 @@
     max-width: 1366px;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .rightHeader{
@@ -96,4 +97,101 @@
     color: #e13b3b;
     font-size: 16px;
     font-weight: 600;
+}
+
+@media(max-width:1365px) {
+    .eathomeWrapper{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .imageheader{
+        width: 50%
+    }
+    .rightEat{
+        width: 50%
+    }
+
+    .textRightEat{
+        font-size: 50px;
+    }
+    .topsmallText{
+        width: 300px;
+    }
+}
+
+@media(max-width:958px) {
+
+    .imageheader{
+        width: 40%
+    }
+    .rightEat{
+        width: 40%
+    }
+
+    .textRightEat{
+        font-size: 40px;
+    }
+    .containerP{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:821px
+) {
+
+    .imageheader{
+        width: 40%
+    }
+    .rightEat{
+        width: 40%
+    }
+
+    .textRightEat{
+        font-size: 40px;
+    }
+    .containerP{
+        font-size: 12px;
+    }
+
+    .imageheader{
+       display: none;
+    }
+}
+
+@media(max-width:632px
+) {
+    
+    .rightEat{
+        width: 30%
+    }
+
+    .textRightEat{
+        font-size: 30px;
+        width: 300px;
+    }
+    .containerP{
+        font-size: 12px;
+        width: 300px;
+    }
+
+    
+}
+
+@media(max-width:393px) {
+    
+    .rightEat{
+        width: 30%
+    }
+
+    .textRightEat{
+        font-size: 30px;
+        width: 300px;
+    }
+    .containerP{
+        font-size: 12px;
+        width: 300px;
+    }
+
+    
 }

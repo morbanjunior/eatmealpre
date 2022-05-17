@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from '../../styles/Header.module.css'
 import fresaPlate from '../../image/fresaPlate.png'
 import facebook from '../../image/facebook.png'
@@ -9,18 +9,27 @@ import backgroundImag from '../../image/backgroundImag.png'
 import {Link} from 'react-router-dom'
 
 const Header = () => {
+  const [isDesktop, setDesktop] = useState(window.innerWidth <= 820);
+  useEffect(() => {
+    setDesktop(window.innerWidth <= 820)
+  }, [window.innerWidth]);
+  
+
+  console.log(isDesktop);
   return (
-    <div style={{
+    <div 
+     style={{
       display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundImage: `url(${ backgroundImag})`,
+        backgroundImage: `url(${isDesktop ? '' : backgroundImag})`,
         backgroundRepeat: 'no-repeat',
-    }}>
+    }} 
+    >
       <div className={styles.headerWrapper}>
         <img src={fresaPlate} alt="" className={styles.imageheader}/>
         
-          <div>
+          <div className={styles.centernerCenter}>
             <div className={styles.centerRightHeader}>
                   <span className={styles.textRightHeader}>
                      Meal Prep  Delivery </span>
@@ -31,7 +40,7 @@ const Header = () => {
               </div>
               <p className={styles.containerP}>
               Healthy Meal Prep Chicago  </p>
-              <Link to='/categories'><div className={styles.buttomHeader}>Order Now</div></Link>
+              <Link to='/categories' className={styles.linkButtom}><div className={styles.buttomHeader}>Order Now</div></Link>
           </div>
            
         <div className={styles.rightHeader}>

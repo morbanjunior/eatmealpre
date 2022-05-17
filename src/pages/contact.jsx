@@ -23,27 +23,30 @@ const ContactUs = () => {
         
   
       }}>
-      <span className={styles.textHead}>Contact Us</span>
-          <div className={styles.containerBody}>
-            <div>
-              <input placeholder='Name' type='text' className={styles.input}/>
-              <input placeholder='Email' type='email' className={styles.input}/>
+        <div className={styles.wrapperContat}>
+          <span className={styles.textHead}>Contact Us</span>
+            <div className={styles.containerBody}>
+              <div className={styles.containerinput}>
+                <input placeholder='Name' type='text' className={styles.input}/>
+                <input placeholder='Email' type='email' className={styles.input}/>
+              </div>
+              {/*  */}
+              <div className={styles.containerinput}>
+                <input placeholder='Phone' type='text' className={styles.input}/>
+                <input placeholder='Subject' type='text' className={styles.input}/>
+              </div>
+              {/*  */}
+              <div className={styles.containerinput}>
+                <textarea placeholder='Message'
+                type='text' cols="34" 
+                rows="5"
+                className={styles.textarea}
+                  />
+              </div>
+              <div className={styles.buttonContact}>Submit</div>
             </div>
-            {/*  */}
-            <div>
-              <input placeholder='Phone' type='text' className={styles.input}/>
-              <input placeholder='Subject' type='text' className={styles.input}/>
-            </div>
-             {/*  */}
-             <div>
-              <textarea placeholder='Message'
-               type='text' cols="34" 
-               rows="5"
-               className={styles.textarea}
-                />
-            </div>
-            <div className={styles.buttonContact}>Submit</div>
-          </div>
+        </div>
+      
       </div>
       </>
   )

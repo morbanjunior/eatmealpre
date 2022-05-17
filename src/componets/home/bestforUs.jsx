@@ -19,7 +19,7 @@ const [selectedChoose, SetselectedChoose]=useState(true);
         backgroundSize: 'cover',
         backgroundAttachment: 'fixed',
         // marginTop:' 140px',
-        height:'800px'
+        height:'auto'
     }}>
             <div className={styles.bestwrapper}>
                 <h1>Choose The Best from Us</h1>

@@ -16,6 +16,10 @@ const logout =()=>{
   navigate('/');
 }
 
+const dataUser = JSON.parse(localStorage.getItem('login'));
+ console.log(dataUser.userData.first_name);
+ console.log(dataUser.userData.last_name);
+
   return (
     <>
 <div>
@@ -153,20 +157,21 @@ const logout =()=>{
               <img src={user} alt="User Avatar" className="img-size-50 mr-3 img-circle" />
               <div className="media-body">
                 <h3 className="dropdown-item-title">
-                 Ramon Morban
+                 {dataUser.userData.first_name + " " + dataUser.userData.last_name}
+                
                 </h3>
-                <p className="text-sm">morbanjunior@gmail.com</p>
+                <p className="text-sm">{dataUser.userData.email}</p>
               </div>
             </div>
           </a>
           <div className="dropdown-divider" />
-          <a href="#" className="dropdown-item">
+          <Link to='/changePassword' className="dropdown-item">
             <i className="fas fa-key mr-2" /> Change password
-          </a>
+          </Link>
           <div className="dropdown-divider" />
-          <a href="#" className="dropdown-item">
+          <Link to='/Profile' className="dropdown-item">
             <i className="fa fa-cog mr-2" /> User Settings
-          </a>
+          </Link>
           <div className="dropdown-divider" />
           <a onClick={logout} className="dropdown-item dropdown-footer">Log Out</a>
         </div>

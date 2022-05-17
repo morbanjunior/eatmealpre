@@ -3,6 +3,7 @@
    justify-content: center;
    margin-top: 20px;
    margin-bottom: 10px;
+   
 }
 
 .topwrapper{
@@ -31,11 +32,6 @@
     color: #FF4646 ;
 }
 
-
-
-
-
-
 .ContainerIconstop{
     display: flex;
     flex-direction: row;
@@ -63,4 +59,29 @@
 
 .iconSpace{
     margin-right: 5px !important;
+}
+
+@media(max-width:1149px) {
+    /* .containerTopbar{
+        padding-left: 5%;
+        padding-right: 5%;
+    } */
+.topwrapper{
+
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-wrap: wrap;
+}
+    
+}
+
+@media(max-width:393px) {
+   
+  .topText{
+    font-size: 25px;
+   margin-left: 70px;
+  }
+    .ContainerIconstop{
+        margin-left: 45px;
+    }
 }

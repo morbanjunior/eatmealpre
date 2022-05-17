@@ -95,7 +95,7 @@ const Login = () => {
       }}>
       <span className={styles.textHead}>Log In</span>
           <div className={styles.containerBody}>
-            <div>
+            <div className={styles.containerinput}>
               <input placeholder='User or Email' type='text' className={styles.input}
                   value={email} onChange={ (event) => {
                     SetUserEmail(event.target.value) 
@@ -105,7 +105,7 @@ const Login = () => {
               
             </div>
             {/*  */}
-            <div>
+            <div className={styles.containerinput}>
                <input placeholder='password' type='password' className={styles.input}
                   value={password} onChange={ (event) => {
                     SetPassword(event.target.value)
@@ -117,8 +117,8 @@ const Login = () => {
             {/* <div className={styles.errorLogin}> {errorLoing} </div> */}
             <div className={styles.buttonContact} onClick={HandlerLogin}>Log In</div>
             
-            <span className={styles.registerLink}>Not yet a member? <Link to='/register'> Register here</Link></span>
-            <Link to='/forgotpassword'> Forgot Password</Link>
+            <span className={styles.registerLink}>Not yet a member? <Link to='/register' className={styles.registerLink2}> Register here</Link></span>
+            <Link to='/forgotpassword' className={styles.registerLink2}> Forgot Password</Link>
           </div>
       </div>
       </>

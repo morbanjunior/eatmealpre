@@ -28,6 +28,9 @@
     justify-content: space-between;
     align-items: center;
     height: 500px;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-wrap: wrap;
 }
 
 
@@ -69,4 +72,30 @@
 
 .buttomHeader:hover{
     background-color: #e13b3b;
+}
+
+@media(max-width:1366px) {
+    .deliveywrapper{
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+}
+
+@media(max-width:514px) {
+    .textRightEat, .textRight{
+        font-size: 26px;
+    }
+
+    .containerP{
+        font-size: 12px;
+        width: 300px;
+        margin-bottom: 0;
+    }
+
+    .imageheader{
+        width: 80%;
+    }
 }

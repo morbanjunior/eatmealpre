@@ -1,11 +1,11 @@
-.order-container{
+.ordercontainer{
     padding: 20px;
     width: 100%;
     height: 100%;
 }
 
 .itemContainer{
-    margin: 0 20px;
+    margin: 0 20px ;
     width: 100%;
 }
 .OrderItem{
@@ -15,9 +15,9 @@
     width: 100%;
     height: auto;
     background-color: white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-.container-details{
+.containerdetails{
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
@@ -26,13 +26,13 @@
 }
 
 
-.container-Subdetails{
+.containerSubdetails{
     margin-bottom: 15px;
     margin-left: 20px;
     
 }
 
-.container-SubdetailsEnd{
+.containerSubdetailsEnd{
     display:flex;
     flex-direction: column;
     margin-bottom: 15px;
@@ -40,31 +40,34 @@
     align-items: flex-end;
    
 }
-.container-id{
+.containerid{
     display:flex;
 }
 
-.container-p{
+.containerp{
     margin-right: 5px;
 }
-
-.food-id{
-    background-color: green;
+/*  */
+.containerFood{
+    margin-right: 5px;
+    background-color: #FF4646;
     color: white;
     border-radius:5px;
     padding: 0 5px;
 }
 
-.admin-id{
-    background-color: rgb(0, 153, 255);
+.containerAdmin{
+    margin-right: 5px;
+    background-color: #30475E;
     color: white;
     border-radius:5px;
     padding: 0 5px;
 }
 
-.deliver-id{
+.containerdeliverid{
+    margin-right: 5px;
     display: flex;
-    background-color: rgb(0, 153, 255);
+    background-color: #30475E;
     width: 70px;
     color: white;
     border-radius: 5px;
@@ -74,9 +77,10 @@
    
 }
 
-.renew-id{
+.Containerrenewid{
+    margin-right: 5px;
     display: flex;
-    background-color: rgb(0, 153, 255);
+    background-color: #30475E;
     width: 130px;
     color: white;
     border-radius: 1px;
@@ -86,7 +90,57 @@
     cursor: pointer;
 }
 
-.paidBy-id{
+.containerpaidByid{
+    display: flex;
+    margin-right: 5px;
+    background-color: rgb(7, 17, 24);
+    color: white;
+    border-radius:5px;
+    padding: 0 5px;
+    justify-content: center;
+    align-items: center;
+}
+/*  */
+
+.foodid{
+    background-color: #FF4646;
+    color: white;
+    border-radius:5px;
+    padding: 0 5px;
+}
+
+.adminid{
+    background-color: #30475E;
+    color: white;
+    border-radius:5px;
+    padding: 0 5px;
+}
+
+.deliverid{
+    display: flex;
+    background-color: #30475E;
+    width: 70px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 5px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.renewid{
+    display: flex;
+    background-color: #30475E;
+    width: 130px;
+    color: white;
+    border-radius: 1px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.paidByid{
     display: flex;
     background-color: rgb(7, 17, 24);
     color: white;
@@ -96,11 +150,11 @@
     align-items: center;
 }
 
-.renew-id:hover{
+.renewid:hover{
    background-color: rgb(0, 140, 255);
 }
 
-.img-Container{
+.imgContainer{
     width: 150px;
     height: auto;
     border-radius:5px;
@@ -108,11 +162,10 @@
 
 .inputContainer{
     display: flex;
-    padding: 0 10px;
-    margin-left: 10px;
+    padding: 20px;
+    /* margin-left: 10px; */
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
 }
 
 .inputProp{
@@ -126,7 +179,8 @@
 }
 
 .inputFilter{
-    width: 150px;
+    width: 200px;
+    padding: 10px;
 
     
 }
@@ -142,7 +196,7 @@
 }
 
 @media(max-width:471px) {
-    .img-Container{
+    .imgContainer{
         width: 100%;
         height: auto;
         border-radius:5px;
@@ -153,7 +207,7 @@
     .inputContainer{
       margin-top: 20px;
     }
-    .container-details{
+    .containerdetails{
        display: block;
        flex-wrap: wrap;
     }
