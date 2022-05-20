@@ -156,7 +156,7 @@ const Food = () => {
     <div className={styles.wrapContainer}>
       {foods.map((food, index)=>(
         <>
-      {/* Items */}
+      
         <div className={styles.itemCategoryContainer} key={index}>
             <img src={plate} alt="" />
             <div className={styles.imageMealtext}>
@@ -171,7 +171,7 @@ const Food = () => {
                 </div>
             </div>
         </div>
-      {/* End Items */}
+      
       </>
       ))}
     </div>

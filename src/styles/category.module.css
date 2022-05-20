@@ -73,3 +73,40 @@
     font-weight: 700;
     color: #FF4646;
 }
+
+
+@media(max-width:611px) {
+    .itemCategory img{
+        width: 30%;
+    }
+}
+
+@media(max-width:611px) {
+    .headerMealtext{
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .spanp{
+        font-size: 12px;
+        font-weight: 300;
+        width: 186px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media(max-width:393px) {
+    .headerMealtext{
+        width: 150px;
+    }
+
+    .bottonCategory{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 25px;
+    }
+
+}
