@@ -18,7 +18,7 @@ const Gifcard = () => {
             <div className={styles.itemGiftWrap}>
                 {/* Body Items header*/}  
 
-                <div className={styles.gifContainerTop} style={{backgroundColor: '#1EAD5E'}}>
+                <div className={styles.gifContainerTop} style={{backgroundColor: '#30475E'}}>
                      <div className={styles.customGif}>
                          <div>
                          <span style={{color: '#fff', fontFamily: 'Poppins',fontStyle: 'normal',
@@ -49,7 +49,7 @@ const Gifcard = () => {
 
                 {/* Body Items header*/}
 
-                <div className={styles.gifContainerTop} style={{backgroundColor: '#1EAD5E'}}>
+                <div className={styles.gifContainerTop} style={{backgroundColor: '#30475E'}}>
                      <div className={styles.customGif}>
                          <div>
                          <span style={{color: '#fff', fontFamily: 'Poppins',fontStyle: 'normal',
@@ -80,7 +80,7 @@ const Gifcard = () => {
 
                 {/* Body Items header*/}
 
-                <div className={styles.gifContainerTop} style={{backgroundColor: '#1EAD5E'}}>
+                <div className={styles.gifContainerTop} style={{backgroundColor: '#30475E'}}>
                      <div className={styles.customGif}>
                          <div>
                          <span style={{color: '#fff', fontFamily: 'Poppins',fontStyle: 'normal',

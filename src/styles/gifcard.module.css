@@ -35,7 +35,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #1EAD5E;
+    background-color: #30475E;
     border-radius: 5px;
     color: white;
     font-family: 'Poppins';
@@ -49,7 +49,7 @@
 }
 
 .buttomGift:hover{
-    background-color: #1da158;
+    background-color: #273a4d;
 }
 
 .gifContainerTop{
@@ -72,7 +72,7 @@
 
 .gifTableItems{
    
-    background-color: #1ead5e38;
+    background-color: #30475E38;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -89,7 +89,7 @@
 }
 
 .colorGif{
-    color: #1EAD5E;
+    color: #30475E;
     margin-right: 5px;
 }
 

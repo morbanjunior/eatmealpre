@@ -46,7 +46,7 @@
   .featuredIconmeails{
       font-size: 30px;
       margin-left: 125px;
-      color: green;
+      color: #30475E;
   }
   .featuredAmount{
       font-size: 16px;
@@ -57,5 +57,5 @@
    
   }
   a:hover{
-      color:green;
+      color:#273a4e;
   }

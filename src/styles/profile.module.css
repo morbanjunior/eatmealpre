@@ -91,7 +91,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #189550;
+    background-color: #30475E;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -104,7 +104,7 @@
 }
 
 .saveProfile:hover{
-    background-color: #158648;
+    background-color: #26384a;
 }
 
 .radioInput{

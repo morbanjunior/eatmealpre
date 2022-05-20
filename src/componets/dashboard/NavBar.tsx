@@ -26,7 +26,7 @@ useEffect(() => {
     localStorage.removeItem("login");
     navigate('/');
     
-    toast.success(`Auto logOut`, {
+    toast.error(`Your session expired. Please log in again to continue.`, {
       position: "top-left",
     });
   }, 600000);
