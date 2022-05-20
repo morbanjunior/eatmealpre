@@ -76,7 +76,7 @@ const CustomMeal = () => {
     
     else{
       dispatch(addToCart({...item, quantity} ))
-      // dispatch(getTotals())
+      dispatch(getTotals())
       SetQuantity(0);
       SetselectProtein('Select Protein');
       SetsSideOne('Select Side 1');
