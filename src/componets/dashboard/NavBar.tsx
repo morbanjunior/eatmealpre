@@ -29,7 +29,7 @@ useEffect(() => {
     toast.success(`Auto logOut`, {
       position: "top-left",
     });
-  }, 300000);
+  }, 600000);
   return () => clearTimeout(timer);
 }, []);
 
