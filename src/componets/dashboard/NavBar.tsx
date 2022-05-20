@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { useSelector} from 'react-redux'
 import {Link, useNavigate} from 'react-router-dom'
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
@@ -8,6 +8,8 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import user from '../../image/user.png'
 import { cartType } from '../../redux/cartSlice';
 import { selectcartTotalQuantity } from '../../redux/store';
+import { toast } from "react-toastify";
+
 
 const NavBar = () => {
     const totalQuantity = useSelector(selectcartTotalQuantity);
@@ -17,9 +19,23 @@ const logout =()=>{
   localStorage.removeItem("login");
   navigate('/');
 }
+
+useEffect(() => {
+  const timer = setTimeout(() => {
+    
+    localStorage.removeItem("login");
+    navigate('/');
+    
+    toast.success(`Auto logOut`, {
+      position: "top-left",
+    });
+  }, 300000);
+  return () => clearTimeout(timer);
+}, []);
+
 // const dataUser = JSON.parse(localStorage.getItem('login'));
 const dataUser:string = JSON.parse(localStorage.getItem('login') || "");
- console.log(dataUser);
+//  console.log(dataUser);
 //  console.log(dataUser.userData.last_name);
 
 const email = 'morbanjunior@gmail.com';

@@ -44,10 +44,11 @@ const App = () => {
     if(data){
       // SetCategorylist(data.data.food_types);
       SetfoodTypes(data.data.food_types);
-      
-      console.log(foodTypes)
+     
     }
   },[data])
+
+
 
   return (
     <>

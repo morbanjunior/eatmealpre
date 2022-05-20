@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { TranHistModel } from '../../model/tranHistModel'
+import { TranHistModel } from '../../model/TranModel'
 import styles from '../../styles/wallet.module.css'
 import CreditCardForm from './creditCard/CreditCardForm'
 import Transactions from './walletTransactions/Transactions'

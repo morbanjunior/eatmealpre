@@ -2,7 +2,8 @@ import React from 'react'
 import styles from '../../../styles/wallet.module.css'
 import walletAdd from "../../../image/wallet-add.png"
 import cart from "../../../image/cart.png"
-import { TranHistModel } from '../../../model/tranHistModel';
+import { TranHistModel } from '../../../model/TranHistModel';
+
 
 interface Props{
   walletItem:TranHistModel;
